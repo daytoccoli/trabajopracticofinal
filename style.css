@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+margin: 0;
+background: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/dfa1ee09-8585-422e-a32a-067e14159aa0/bvlatuR/std/2880x2400/Homepage-Model-Y-Global-Desktop?quality=auto-medium&amp;format=auto);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+font-family: "Gotham", sans-serif;
+}
+
+
+.header {
+    background-color: #0769e9;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: initial;
+
+}
+
+
+.container {
+    min-height: 700px 200px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+section button{
+    display: flex;
+    display: inline-block;
+    background-color: rgb(41, 40, 104);
+    color: rgb(230, 228, 228);
+    border: none;
+    width: 180px;
+    height: 200px;
+    font-size: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 20px;
+    box-shadow: 0px 5px 6px rgba(17, 17, 17, 0.439);
+}
+
+h1 {
+    font-family: 'roboto', sans-serif;
+    font-size: 25px;
+    justify-content: center;
+    margin: 30px;
+    color: white;
+    /* Aplica un sombreado de texto para mejorar la visibilidad */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+
+h2{
+    font-family: 'roboto', sans-serif;
+    margin: 90px;
+    font-size: 25px;
+    justify-content: center;
+    text-align: right;
+    color: white;
+    /* Aplica un sombreado de texto para mejorar la visibilidad */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+
+}
+
+
+
+.icon-button i {
+    display: flex;
+    padding: 80px;
+    align-items: center;
+    
+}
+.navbar{
+    width: 70;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.logo{
+    width: 120px;
+    cursor: pointer;
+    justify-content: flex-end;
+
+}
+
+
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a {
+    font-style: inherit;
+    text-decoration: none;
+    
+    font-family: sans-serif;
+    font-size: 1rem;
+
+}
+
+
+.navbar ul li :hover {
+    color:beige;
+    width: 100%;
+
+}
+
+.cuerpo{
+    text-align: center;
+    font-family: sans-serif;
+    height: calc(100vh - 80px);
+    background-image: 100%; 
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+main{
+    display: table-row;
+}
+main img{
+    width: 100vw; /* la imagen se ajustará al ancho del contenedor */
+    height: 60vh; /* establece la altura máxima de la imagen */
+    object-fit: cover; /* la imagen se recortará para llenar el contenedor */
+    overflow: hidden; /* oculta cualquier parte de la imagen que se extienda más allá de los límites del contenedor */
+
+}
+
+
+footer{
+    text-align: center;
+    padding: 20px;
+}
+
+.pie{
+    text-align: center;
+}
+.Redessociales{
+    text-align: center;
+}
